@@ -50,6 +50,19 @@ function searchCards(cards, termino) {
     return cards.filter(card => card.title.toLowerCase().includes(termino.toLowerCase()));
 }
 
+// Lo mismo
+
+// function searchCards(cards, termino) {
+//     const lowerCaseTerm = termino.toLowerCase(); // Convierte el término de búsqueda a minúsculas
+
+//     const filteredCards = cards.filter(card => {
+//         const lowerCaseTitle = card.title.toLowerCase(); // Convierte el título a minúsculas
+//         return lowerCaseTitle.includes(lowerCaseTerm); // Verifica si el título contiene el término
+//     });
+
+//     return filteredCards; // Devuelve el resultado filtrado
+// }
+
 // 4. Iniciar el buscador
 document.addEventListener('DOMContentLoaded', async () => {
     const cards = await loadCards(); // Cargar cards al inicio
