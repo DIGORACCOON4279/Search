@@ -1,0 +1,44 @@
+{
+    "cards": [
+        {
+            "title": "Explora el Universo",
+            "content": "Descubre los misterios del espacio exterior y las últimas misiones espaciales."
+        },
+        {
+            "title": "Innovación Tecnológica",
+            "content": "Mantente al día con las últimas tendencias en tecnología e innovación."
+        },
+        {
+            "title": "Cultura Pop",
+            "content": "Explora las novedades en cine, música, series y más del mundo del entretenimiento."
+        },
+        {
+            "title": "Desarrollo Web",
+            "content": "Aprende las mejores prácticas y herramientas para crear experiencias web increíbles."
+        },
+        {
+            "title": "Videojuegos",
+            "content": "Sumérgete en el mundo de los videojuegos, reseñas, noticias y próximos lanzamientos."
+        },
+        {
+            "title": "Mundo Geek",
+            "content": "Un espacio para los apasionados por la informática, gadgets y cultura geek."
+        },
+        {
+            "title": "Ciencia y Descubrimientos",
+            "content": "Explora los avances científicos que están cambiando el mundo."
+        },
+        {
+            "title": "Moda y Estilo",
+            "content": "Descubre las últimas tendencias en moda, estilo de vida y diseño."
+        },
+        {
+            "title": "Ciberseguridad",
+            "content": "Protege tu información con consejos y novedades en seguridad digital."
+        },
+        {
+            "title": "Programación",
+            "content": "Domina los lenguajes de programación y lleva tus habilidades al siguiente nivel."
+        }
+    ]
+}

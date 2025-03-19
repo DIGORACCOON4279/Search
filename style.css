@@ -1,0 +1,118 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: auto;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    font-family: "Work Sans", sans-serif;
+}
+
+.mainSearch{
+    width:100vw;
+    height:auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.mainSearch .searchSection{
+    width:100vw;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.mainSearch .searchSection .searchBlock{
+    width:100vw;
+    height:auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #000000;
+    padding:50px;
+}
+
+.mainSearch .searchSection .searchBlock .searchContain{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:10px;
+}
+
+.mainSearch .searchSection .searchBlock label{
+    width:auto;
+    height:auto;
+    color:#ffffff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.mainSearch .searchSection .searchBlock #finder{
+    width:350px;
+    height:auto;
+    color:#5e5e5e;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    padding:12.5px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    outline: none;
+    border:2px solid black;
+}
+
+.mainSearch .searchSection .searchBlock #finder:focus{
+    border:2px solid #fa00ed;
+}
+
+.mainSearch .searchSection .cardsBlock{
+    width:80%;
+    max-width: 1000px;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+    gap:20px;
+    padding:50px 0px;
+}
+
+.mainSearch .searchSection .cardsBlock .card{
+    width:300px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    gap:20px;
+    padding:30px;
+    border-radius: 15px;
+    box-shadow: 0 0 12px 2px #f0f0f0;
+}
+
+.mainSearch .searchSection .cardsBlock .card .title{
+    color:#7c7c7c;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.mainSearch .searchSection .cardsBlock .card .content{
+    color:#b1b1b1;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+
