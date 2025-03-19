@@ -1,5 +1,17 @@
+
+//  Resumen del flujo completo:
+
+//  >> Carga las cards desde el JSON.
+//  >> Muestra todas las cards al cargar la página.
+//  >> Escucha el input del usuario:
+//       - Filtra las cards en función del término ingresado.
+//       - Muestra los resultados en tiempo real.
+//  >> Si no hay coincidencias, muestra el mensaje:
+//      "No se encontraron resultados."
+
+
  // 1. Cargar el JSON con las cards
-async function cargarCards() {
+async function loadCards() {
     try {
         const respuesta = await fetch('./javascript/cards.json'); // Asegúrate que el archivo está en la misma carpeta
         const data = await respuesta.json();
@@ -10,7 +22,7 @@ async function cargarCards() {
 }
 
 // 2. Mostrar las cards en el DOM
-function mostrarCards(cards) {
+function showCards(cards) {
     const cardsContainer = document.getElementById('cardsContainer');
     cardsContainer.innerHTML = ''; // Limpiar resultados anteriores
 
@@ -34,22 +46,22 @@ function mostrarCards(cards) {
 }
 
 // 3. Función de búsqueda (exacta y parcial)
-function buscarCards(cards, termino) {
+function searchCards(cards, termino) {
     return cards.filter(card => card.title.toLowerCase().includes(termino.toLowerCase()));
 }
 
 // 4. Iniciar el buscador
 document.addEventListener('DOMContentLoaded', async () => {
-    const cards = await cargarCards(); // Cargar cards al inicio
+    const cards = await loadCards(); // Cargar cards al inicio
     const inputBuscador = document.getElementById('search');
 
     // Mostrar todas las cards al cargar la página
-    mostrarCards(cards);
+    showCards(cards);
 
     // Escuchar eventos de entrada en el buscador
     inputBuscador.addEventListener('input', () => {
         const termino = inputBuscador.value.trim();
-        const resultados = buscarCards(cards, termino);
-        mostrarCards(resultados);
+        const resultados = searchCards(cards, termino);
+        showCards(resultados);
     });
 });
