@@ -19,6 +19,9 @@ function mostrarCards(cards) {
         return;
     }
 
+    // Ternario obtiene el mismo resultado
+    // cardsContainer === 0 ? cardsContainer.innerHTML = '<p>No se encontraron resultados.</p>' : null
+
     cards.forEach(card => {
         const cardHTML = `
             <div class="card">
@@ -38,7 +41,7 @@ function buscarCards(cards, termino) {
 // 4. Iniciar el buscador
 document.addEventListener('DOMContentLoaded', async () => {
     const cards = await cargarCards(); // Cargar cards al inicio
-    const inputBuscador = document.getElementById('finder');
+    const inputBuscador = document.getElementById('search');
 
     // Mostrar todas las cards al cargar la página
     mostrarCards(cards);
