@@ -39,6 +39,86 @@
         {
             "title": "Programación",
             "content": "Domina los lenguajes de programación y lleva tus habilidades al siguiente nivel."
+        },
+        {
+            "title": "Inteligencia Artificial",
+            "content": "Adéntrate en el mundo de la IA y descubre cómo está transformando la sociedad."
+        },
+        {
+            "title": "Energías Renovables",
+            "content": "Conoce las últimas innovaciones en energía solar, eólica y más."
+        },
+        {
+            "title": "Salud y Bienestar",
+            "content": "Consejos para mejorar tu calidad de vida, alimentación y bienestar emocional."
+        },
+        {
+            "title": "Marketing Digital",
+            "content": "Aprende estrategias para potenciar tu presencia en línea y llegar a más personas."
+        },
+        {
+            "title": "Fotografía",
+            "content": "Descubre técnicas y consejos para capturar imágenes impresionantes."
+        },
+        {
+            "title": "Viajes y Aventuras",
+            "content": "Explora destinos fascinantes y planifica tu próxima aventura."
+        },
+        {
+            "title": "Educación y Aprendizaje",
+            "content": "Accede a recursos educativos para seguir aprendiendo y creciendo."
+        },
+        {
+            "title": "Blockchain y Criptomonedas",
+            "content": "Entiende cómo funciona la tecnología blockchain y las criptomonedas."
+        },
+        {
+            "title": "Arte y Creatividad",
+            "content": "Inspírate con ideas creativas y proyectos artísticos innovadores."
+        },
+        {
+            "title": "Emprendimiento",
+            "content": "Consejos y estrategias para iniciar y hacer crecer tu propio negocio."
+        },
+        {
+            "title": "Automatización",
+            "content": "Descubre cómo la automatización está optimizando procesos en diversas industrias."
+        },
+        {
+            "title": "Astronomía",
+            "content": "Aprende sobre las estrellas, planetas y los secretos del cosmos."
+        },
+        {
+            "title": "Psicología",
+            "content": "Explora el comportamiento humano y las últimas investigaciones en psicología."
+        },
+        {
+            "title": "Ecología",
+            "content": "Descubre cómo cuidar el planeta con prácticas sostenibles."
+        },
+        {
+            "title": "Cine Independiente",
+            "content": "Sumérgete en el mundo del cine alternativo y sus historias únicas."
+        },
+        {
+            "title": "Deportes",
+            "content": "Mantente al tanto de las últimas noticias y eventos deportivos del mundo."
+        },
+        {
+            "title": "Idiomas",
+            "content": "Aprende nuevos idiomas con recursos y consejos efectivos."
+        },
+        {
+            "title": "Finanzas Personales",
+            "content": "Gestiona mejor tu dinero con estrategias de ahorro e inversión."
+        },
+        {
+            "title": "Realidad Virtual",
+            "content": "Explora el futuro con las últimas experiencias en realidad virtual."
+        },
+        {
+            "title": "Robótica",
+            "content": "Descubre los avances en robótica y su impacto en el futuro."
         }
     ]
 }
